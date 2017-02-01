@@ -1,0 +1,86 @@
+/* Here goes your CSS */
+body {
+  background-color: #126A26;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+p {
+  font-size: 18px;
+}
+
+.text {
+  text-align: justify;
+}
+
+h1, h2, h3 {
+  font-family: 'Exo 2', sans-serif;
+  color: #DFDC27;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.blocks {
+  background-color: #6F7EE6;
+  border-radius: 5px;
+  border: 2px solid #141F99;
+  box-shadow: 2px 2px 2px #0C114E;
+  padding: 30px;
+  margin: 50px;
+}
+
+a {
+  color: #F5ECEC;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #126A26;
+  font-weight: 100;
+}
+
+.btn-blue {
+  background-color: #0C114E;
+  padding: 12px;
+  border-radius: 3px;
+}
+
+.movie_pics {
+  border-radius: 50%;
+}
+
+.movie_pics:hover {
+  border-radius: 3px;
+}
+
+#img_circle {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  padding-left: 0px;
+}
